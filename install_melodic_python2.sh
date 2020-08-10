@@ -19,3 +19,6 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 cd ~/catkin_ws
 catkin_make
+echo "export ROS_MASTER_URI=http://localhost:11311" >> ~/.bashrc
+echo "export ROS_HOSTNAME=localhost" >> ~/.bashrc
+echo "export ROS_IP=localhost" >> ~/.bashrc
