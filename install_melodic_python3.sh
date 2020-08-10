@@ -7,8 +7,8 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 sudo apt update
 sudo apt install -y ros-melodic-desktop-full
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
-echo "alias cw="cd ~/catkin_ws"" >> ~/.bashrc
-echo "alias catkin_make="catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3"" >> ~/.bashrc
+echo "alias cw=\"cd ~/catkin_ws\"" >> ~/.bashrc
+echo "alias catkin_make=\"catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3\"" >> ~/.bashrc
 source ~/.bashrc
 sudo apt install -y python-rosdep python-rosinstall python-rosinstall-generator python-wstool build-essential
 sudo apt install -y python-rosdep
