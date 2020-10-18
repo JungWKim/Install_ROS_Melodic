@@ -17,8 +17,6 @@ sudo apt install -y python-rosdep
 sudo rosdep init
 rosdep update
 mkdir -p ~/catkin_ws/src
-cd ~/catkin_ws
-catkin_make
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 cd ~/catkin_ws
